@@ -35,7 +35,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://aicc8-team1-project1-front-uxwt.vercel.app',
     credentials: true,
   }),
 );
