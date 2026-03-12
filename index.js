@@ -28,7 +28,7 @@ import recommendRoutes from './src/routes/recommend.routes.js';
 import swaggerUi from 'swagger-ui-express';
 import swaggerSpec from './database/swagger.js';
 
-// test - .env change
+// test - .env change  2222
 const app = express();
 
 // Set uploads directory as static route
